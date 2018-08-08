@@ -1,0 +1,27 @@
+{
+  "name": "shopping_list",
+  "version": "1.0.0",
+  "description": "shopping list with mern stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install" : "npm install --prefix client",
+    "start": "node server.js",
+    "server" : "nodemon server.js",
+    "client" : "npm start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "saon",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}
